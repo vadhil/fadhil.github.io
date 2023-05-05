@@ -1,6 +1,4 @@
-import React from 'react'
-
-export default function () {
+export default function Footer () {
   return (
     <section className='footer center p-3 border-top-blue border-bottom-blue'>
         <div className="container-fluid ">
