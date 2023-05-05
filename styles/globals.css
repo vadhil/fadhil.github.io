@@ -5,6 +5,25 @@
   background-color: #f5f5f5;
 }
 
+
+.img-more{
+  height: 500px;
+  border-radius: 40px;
+  overflow: hidden;
+  max-width: 600px;
+}
+.square-img{
+max-height: max-content;
+}
+
+
+
+
+
+
+
+
+
 /* main pages */
 .full{
   height: 100vh;
@@ -33,6 +52,12 @@
 }
 .fs-2{
   font-size: 54px;
+}
+.fs-3{
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 1.138em;
+  color: #1d1d2f;
 }
 .text-grey{
   color: grey;
@@ -66,6 +91,19 @@ overflow: hidden;
 .border-bottom-blue{
   border-bottom: #1d1d2f 2px solid;
 }
+.border-white-blue{
+  border: white 2px solid;
+  border-radius: 15px;
+}
+.border-top-white-blue{
+  border-top: white 2px solid;
+}
+.border-bottom-white-blue{
+  border-bottom: white 2px solid;
+}
+.bd{
+  border-radius: 15px;
+}
 
 
 
@@ -93,6 +131,8 @@ font-family: 'Albert Sans', sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* font-weight: 500; */
+
 }
 html,
 body {
@@ -100,6 +140,7 @@ body {
   overflow-x: hidden;
   font-family: 'Albert Sans', sans-serif;
   color: #1d1d2f;
+  /* font-weight: 500; */
 }
 footer{
   min-height: 15vh;
@@ -111,6 +152,7 @@ footer{
   background-color: #1d1d2f;
   padding: 10px;
 }
+
 
 /* header */
 .header-wrapper {
@@ -250,13 +292,18 @@ footer{
 .dark{
  color: #212529; 
 }
+.title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 nav{
 }
 .clash{
   font-family: 'Clash Display', sans-serif;                                            
 }
 p{
-  font-weight: lighter;
+  font-weight: normal;
 }
 li a{
   font-weight: lighter;
@@ -271,8 +318,11 @@ Link:hover, a:hover{
 .ig:hover{
   color: rgb(224, 49, 18);
 }
+h1, h2, h3, h4, h5, h6{
+  color: #1d1d2f;
+}
 h6{
-  color: #ffc107;
+  font-weight: 400;
 }
 
 a {

@@ -1,25 +1,26 @@
 import Cards from "./cards";
 import Cta from "./cta";
+import Footer from "./footer";
 import Hero from "./hero";
+import Main from "./main";
+import More from "./more";
+import Utility from "./utility";
 
 
 export default function Home() {
 
+ 
 
   return (
     <>
      <Hero />
       <Cards />
       <Cta />
-      <section className="main-pages mt-5 bg-blue ">
-        <div className="container-fluid  full pt-5 ">
-          <h3 className="display-3 text-white fw-bold text-center ">Main Pages</h3>
-          <h6 className="text-grey text-center">Take a look at the main pages included in the Tech3D X Templates</h6>
-          <div className="row">
-            <div className="col"> main pages</div>
-          </div>
-        </div>
-      </section>
+      <Main />
+      <Utility />
+      <More/>
+      <Utility />
+      <Footer />
 
      
     </>

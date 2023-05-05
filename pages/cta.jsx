@@ -9,7 +9,7 @@ export default function Cta() {
               <div className="d-flex flex-column center  p-4 mt-4">
                 <h1>Def X</h1>
                 <h3>Figma file included</h3>
-                <p>Send us an email to tech3dx@brixtemplates.com with your purchase receipt, and we will send you the editable Figma file for the Tech3D X template.</p>
+                <p className='fw-normal'>Send us an email to tech3dx@brixtemplates.com with your purchase receipt, and we will send you the editable Figma file for the Tech3D X template.</p>
                 <button className="btn-blue-sm btn-blue">Request</button>
               </div>
             </div>
