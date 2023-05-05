@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Footer = () => {
+const Dooter = () => {
   return (
 <footer className='container-fluid d-block'>
   <div class="container text-center py-3">
@@ -37,34 +36,4 @@ const Footer = () => {
     </div>
     <p className='fw-light copy text-warning text-center'>Copyright &copy; Def X | Designed by <u>Fadhil - Powered by Def X</u></p>
 </footer>
-
-  //   <footer className="bg-dark text-light rounded-top">
-  //   <div className="container-fluid" >
-  //     <div className="row row-col">
-  //     <div className="col row row-col">
-  //       <h5 className=''>sosial media</h5>
-  //       <div className='d-grid col gap-3'>
-  //         <a href="">ig</a>
-  //         <a href="">facebook</a>
-  //         <a href="">twitter</a>
-  //       </div>
-  //     </div>
-  //       <div className="col row">
-  //         <h5>alamat</h5>
-  //         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-  //         Cumque distinctio dignissimos natus tempore nesciunt deleniti.</p>
-  //       </div>
-  //     </div>
-
-  //     <div className="row text-center">
-        
-  //         <p>&copy; Copyright 2023 fadhil</p>
-    
-  //     </div>
-  //   </div>
-  // </footer>
-  
-  )
-}
-
-export default Footer
+  )}

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Cards() {
@@ -6,7 +7,7 @@ export default function Cards() {
         return (
             <div className="col d-flex mb-4 ">
                 <div class="card-blue mx-auto border-blue d-flex flex-column align-items-center justify-items-center">
-                  <img src={link} class="card-img-top border-bottom-blue img-card" alt="..." />
+                  <Image src={link} class="card-img-top border-bottom-blue img-card" alt="..." />
                   <div class="card-body flex-grow-1 align-self-center mt-4">
                     <h3 className="  fw-bold text-align-center">40 section</h3>
                   </div>

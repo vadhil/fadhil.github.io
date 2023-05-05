@@ -6,12 +6,12 @@ export default function () {
         <div className="container-fluid ">
             <div className="row center">
                 <div className="col mt-2">
-                    <p>Copyright © Def X | Designed by def X Templates - Powered by Fadhil</p>
+                    <p>Copyright © AEX | Designed by DeX Templates - Powered by Fadhil</p>
                 </div>
-                <div className="col d-flex">
-                    <div className="icon col">instagram</div>
-                    <div className="icon col">instagram</div>
-                    <div className="icon col">instagram</div>
+                <div className="col d-flex center gap-5">
+                    <div className="icon ">instagram</div>
+                    <div className="icon ">facebook</div>
+                    <div className="icon ">twitter</div>
                 </div>
             </div>
         </div>

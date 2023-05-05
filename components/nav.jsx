@@ -14,7 +14,7 @@ export default function Nav() {
   <nav class="navbar navbar-expand-lg bg-white navbar-light text-light ">
   <div class="container  ">
     <div className=''>
-      {MenuItem("/", "log","navbar-brand clash")}
+      {MenuItem("/", "aex","navbar-brand clash")}
     </div>
     <div className='mx-auto'>
       {MenuItem("/", "fadhil","navbar-brand clash fadhil")}
@@ -29,6 +29,7 @@ export default function Nav() {
             {MenuItem("/about", "About")}
             {MenuItem("/profile", "Profile")}
         </div>
+            <button className="btn-blue btn-blue-sm px-5 d-sm-none d-md-block ">register</button>
     </div>
   </div>
 </nav>

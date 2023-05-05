@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function More() {
 
@@ -10,7 +11,7 @@ export default function More() {
             </div>
             <div className="col ">
                 <div className="img-more">
-                    <img className="square-img" src={src} alt="" />
+                    <Image className="square-img" src={src} alt="" />
                 </div>
             </div>
         </div>
